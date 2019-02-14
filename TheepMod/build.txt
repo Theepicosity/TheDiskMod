@@ -1,0 +1,4 @@
+author = Theepicosity
+version = 1.0.0.1
+displayName = The Disk Mod
+homepage = 

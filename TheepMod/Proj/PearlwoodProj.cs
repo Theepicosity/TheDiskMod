@@ -19,8 +19,8 @@ namespace TheepMod.Proj
         {
 			projectile.width = 8;
 			projectile.height = 8;
-			projectile.penetrate = 3;
-			projectile.maxPenetrate = 3;
+			projectile.penetrate = 2;
+			projectile.maxPenetrate = 2;
 			projectile.aiStyle = 8;
 			projectile.friendly = true;
 			projectile.magic = true;

@@ -9,7 +9,7 @@ namespace TheepMod.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Motivational Leaf");
-			Tooltip.SetDefault("20% increased minion damage");
+			Tooltip.SetDefault("10% increased minion damage");
 		}
 
 		public override void SetDefaults()
@@ -23,7 +23,7 @@ namespace TheepMod.Items
 
 		public override void UpdateAccessory(Player player, bool hideVisual)
 		{
-			player.minionDamage += 0.2f;
+			player.minionDamage += 0.1f;
 		}
 	}
 }

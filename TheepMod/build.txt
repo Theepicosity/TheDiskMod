@@ -1,4 +1,4 @@
 author = Theepicosity
-version = 1.0.0.1
+version = 1.0.0.2
 displayName = The Disk Mod
-homepage = 
+homepage = https://github.com/Theepicosity/TheDiskMod

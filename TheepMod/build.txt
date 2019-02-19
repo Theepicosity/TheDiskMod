@@ -1,4 +1,4 @@
 author = Theepicosity
-version = 1.0.0.2
+version = 1.0.0.3
 displayName = The Disk Mod
-homepage = https://github.com/Theepicosity/TheDiskMod
+homepage = https://forums.terraria.org/index.php?threads/the-disk-mod.77691/

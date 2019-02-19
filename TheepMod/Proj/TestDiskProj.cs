@@ -7,7 +7,7 @@ namespace TheepMod.Proj
     {
 	public override void SetStaticDefaults()
 	{
-		DisplayName.SetDefault("DiskProj");
+		DisplayName.SetDefault("Disk");
 	}
     public override void SetDefaults()
         {

@@ -13,7 +13,7 @@ namespace TheepMod.Proj
     {
 	public override void SetStaticDefaults()
 	{
-		DisplayName.SetDefault("PearlwoodProj");
+		DisplayName.SetDefault("Pearlwood Spark");
 	}
     public override void SetDefaults()
         {

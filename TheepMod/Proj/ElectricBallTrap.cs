@@ -8,7 +8,7 @@ namespace TheepMod.Proj
     {
 	public override void SetStaticDefaults()
 	{
-		DisplayName.SetDefault("ElectricBallTrap");
+		DisplayName.SetDefault("Electric Ball");
 	}
     public override void SetDefaults()
         {

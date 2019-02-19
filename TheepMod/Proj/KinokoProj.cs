@@ -49,7 +49,7 @@ namespace TheepMod.Proj
 
 		public override void CreateDust()
 		{
-			Lighting.AddLight((int)(projectile.Center.X / 16f), (int)(projectile.Center.Y / 16f), 0.6f, 0.9f, 0.3f);
+			Lighting.AddLight((int)(projectile.Center.X / 16f), (int)(projectile.Center.Y / 16f), 0.0f, 0.0f, 0.05f);
 		}
 
 		public override void SelectFrame()

@@ -10,6 +10,10 @@ namespace TheepMod.Proj
 {
 	class CombustionProj : ModProjectile
 	{
+	public override void SetStaticDefaults()
+	{
+		DisplayName.SetDefault("Combustion");
+	}
 		public override void SetDefaults()
 		{
 			projectile.width = 15;

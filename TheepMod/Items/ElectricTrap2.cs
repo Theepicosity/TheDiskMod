@@ -4,11 +4,11 @@ using Terraria.ModLoader;
 
 namespace TheepMod.Items
 {
-	public class ElectricTrap : ModItem
+	public class ElectricTrap2 : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Electric Ball Trap");
+			DisplayName.SetDefault("Electric Mind Trap");
 		}
 		public override void SetDefaults()
 		{
@@ -21,7 +21,7 @@ namespace TheepMod.Items
 			item.value = 10000;
 			item.maxStack = 999;
 			item.rare = 0;
-			item.createTile = mod.TileType("ElectricTrapTile");
+			item.createTile = mod.TileType("ElectricTrapTile2");
 			item.useTurn = true;
 			item.autoReuse = true;
 			item.consumable = true;

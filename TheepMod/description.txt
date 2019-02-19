@@ -1,18 +1,16 @@
 The Disk Mod is a kinda miscellaneous mod. It adds some new stuff, but it isn't an entire overhaul of the game.
 
 
-1.0.0.2:
--Added the Shinkin Staff, Mushroom Glowstick, Advanced Trap Component, and Electric Ball Trap.
--Added my first new enemy, the Jumping Cactus!
-
-1.0.0.1:
--Added the Disposable Spark.
--Fixed sprites for the Disk and Meteor Disk.
-
-1.0.0.0:
--Added a bunch of items, including the Disk Gun, Flame Ripper, Disk, Meteor Disk, Tome of Spontaneous Combustion, Pearlwood Wand, Mirror, Shine Mirror, Motivational Leaf, Archery Feather, Slime Pop, and Bouncy Slime Pop.
--Added an alternate crafting recipe for the Magic Mirror.
+1.0.0.3:
+-Changed the mod icon!
+-Added the Electric Mind Trap.
+-When getting hit by the Electric Ball Trap, the gravestone should display the name correctly.
+-The glowing mushroom minion now emits much less light.
+-The Electric Ball Trap is now white rarity.
+-Edited the sprites for the Disk Gun, Flame Ripper, Slime Pop, Bouncy Slime Pop, Combustion Tome, Disk, Meteor Disk, Archery Feather, Motivational Leaf, and Electric Ball Trap.
 
 TODO:
 -Add a glowmask to the mushroom.
 -Make it so you can shift-equip mushroom glowsticks.
+
+Note: This mod is very open to contributions. If you want to contribute, you can go to https://github.com/Theepicosity/TheDiskMod. Look on Terraria Forums for more info.

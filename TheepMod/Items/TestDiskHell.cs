@@ -11,7 +11,7 @@ namespace TheepMod.Items
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 21;
+			item.damage = 24;
 			item.noMelee = true;
 			item.ranged = true;
 			item.width = 40;
@@ -25,7 +25,7 @@ namespace TheepMod.Items
 			item.UseSound = SoundID.Item10;
 			item.autoReuse = false;
 			item.shoot = 10;
-			item.shootSpeed = 18f;
+			item.shootSpeed = 28f;
 			item.useAmmo = mod.ItemType("Disk");
 		}
 

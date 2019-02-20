@@ -26,6 +26,7 @@ namespace TheepMod.Proj
             target.AddBuff(80, 600, false);
 			target.AddBuff(31, 600, false);
 			target.AddBuff(36, 600, false);
+			target.AddBuff(23, 600, false);
         }
     }
 }

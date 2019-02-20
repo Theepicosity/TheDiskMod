@@ -1,13 +1,12 @@
 The Disk Mod is a kinda miscellaneous mod. It adds some new stuff, but it isn't an entire overhaul of the game.
 
 
-1.0.0.3:
--Changed the mod icon!
--Added the Electric Mind Trap.
--When getting hit by the Electric Ball Trap, the gravestone should display the name correctly.
--The glowing mushroom minion now emits much less light.
--The Electric Ball Trap is now white rarity.
--Edited the sprites for the Disk Gun, Flame Ripper, Slime Pop, Bouncy Slime Pop, Combustion Tome, Disk, Meteor Disk, Archery Feather, Motivational Leaf, and Electric Ball Trap.
+1.0.0.4:
+-Added Aidan's Airgun, Air Pellets, and the Shroomite Shredder.
+-Buffed the Disk Gun and Flame Ripper.
+-The Electric Mind Trap also enflicts the Cursed debuff.
+-Edited the sprites for the Mirror and Pearlwood Wand.
+-Remade the sprites for the Disk Gun, Flame Ripper, Slime Pop, Bouncy Slime Pop, Disposable Spark, and Advanced Trap Component.
 
 TODO:
 -Add a glowmask to the mushroom.

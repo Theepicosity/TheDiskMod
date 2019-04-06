@@ -4,11 +4,11 @@ using Terraria.ModLoader;
 
 namespace TheepMod.Items
 {
-	public class ElectricTrap : ModItem
+	public class Basket : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Electric Ball Trap");
+			DisplayName.SetDefault("Basket");
 		}
 		public override void SetDefaults()
 		{
@@ -21,20 +21,16 @@ namespace TheepMod.Items
 			item.value = 10000;
 			item.maxStack = 999;
 			item.rare = 0;
-			item.createTile = mod.TileType("ElectricTrapTile");
-			item.placeStyle = 0;
+			item.createTile = mod.TileType("BasketTile");
 			item.useTurn = true;
 			item.autoReuse = true;
 			item.consumable = true;
-			item.mech = true;
 		}
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(mod.ItemType("TrapPart"), 1);
-			recipe.AddIngredient(2860, 100);
-			recipe.AddIngredient(530, 20);
-			recipe.AddTile(283);
+			recipe.AddIngredient(1727, 20);
+			recipe.AddTile(86);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

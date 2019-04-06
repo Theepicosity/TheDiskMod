@@ -25,8 +25,22 @@ namespace TheepMod.Tiles
 		}
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
 		{
-			Item.NewItem(i * 16, j * 16, 32, 48, mod.ItemType("ElectricTrap"));
+			int style = frameX / 18;
+			string item;
+			switch (style)
+			{
+				case 0:
+					item = "ElectricTrap";
+					break;
+				case 1:
+					item = "ElectricTrap2";
+					break;
+				default:
+					return;
+			}
+			Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType(item));
 		}
+
 		public override void HitWire(int i, int j)
 		{
 			int y = j;
@@ -35,10 +49,25 @@ namespace TheepMod.Tiles
 			Wiring.SkipWire(x, y);
 			int spawnX = x * 16;
 			int spawnY = y * 16;
-			if (Wiring.CheckMech(x, y, 90) && NPC.MechSpawn((float)spawnX, (float)spawnY, mod.ProjectileType("ElectricBallTrap")))
-			{
-				Projectile.NewProjectile((float)spawnX+8, (float)spawnY + 8, 0f, -3f, mod.ProjectileType("ElectricBallTrap"), 50, 0);
-			}
+				int style = Main.tile[i, j].frameX / 18;
+				string type;
+				switch (style)
+				{
+					case 0:
+						if (Wiring.CheckMech(x, y, 90) && NPC.MechSpawn((float)spawnX, (float)spawnY, mod.ProjectileType("ElectricBallTrap")))
+						{
+							Projectile.NewProjectile((float)spawnX+8, (float)spawnY + 8, 0f, -3f, mod.ProjectileType("ElectricBallTrap"), 130, 0);
+						}
+						break;
+					case 1:
+						if (Wiring.CheckMech(x, y, 90) && NPC.MechSpawn((float)spawnX, (float)spawnY, mod.ProjectileType("ElectricBrainTrap")))
+						{
+							Projectile.NewProjectile((float)spawnX+8, (float)spawnY + 8, 0f, -4f, mod.ProjectileType("ElectricBrainTrap"), 5, 0);
+						}
+						break;
+					default:
+						return;
+				}
 		}
 	}
 }

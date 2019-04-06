@@ -27,6 +27,8 @@ namespace TheepMod.NPCs
 			npc.alpha = 50;
 			aiType = NPCID.BlueSlime;
 			animationType = NPCID.BlueSlime;
+			banner = npc.type;
+			bannerItem = mod.ItemType("BridgeTrollBanner");
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)

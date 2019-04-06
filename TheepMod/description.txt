@@ -1,17 +1,19 @@
 The Disk Mod is a kinda miscellaneous mod. It adds some new stuff, but it isn't an entire overhaul of the game.
 
 
-1.0.0.4:
--Added Aidan's Airgun, Air Pellets, and the Shroomite Shredder.
--Buffed the Disk Gun and Flame Ripper.
--The Electric Mind Trap also enflicts the Cursed debuff.
--Edited the sprites for the Mirror and Pearlwood Wand.
--Remade the sprites for the Disk Gun, Flame Ripper, Slime Pop, Bouncy Slime Pop, Disposable Spark, and Advanced Trap Component.
+1.0.0.5:
+-Added the Magic Vessel, Jumping Cactus Banner, Bridge Troll Banner, Basket, Enchanted Quilt, and Star Disk.
+-Added the Bridge Troll.
+-Buffed various items.
+-Redid the Disk Gun sprites again.
 
 TODO:
 -Add a glowmask to the mushroom.
 -Make it so you can shift-equip mushroom glowsticks.
--Add the banner for Jumping Cactus.
--Change the crit strike chance for Aidan's Airgun to 20.
+-Add dust effects to the star disk.
+-Fix chance of finding an enchanted quilt and another accessory.
+-Add Lihzahrd Trap part.
+-Change the dust for the hot air balloon.
+-Add dust for the two enemies.
 
 Note: This mod is very open to contributions. If you want to contribute, you can go to https://github.com/Theepicosity/TheDiskMod. Look on Terraria Forums for more info.

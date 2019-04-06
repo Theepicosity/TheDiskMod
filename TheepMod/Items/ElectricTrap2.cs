@@ -21,7 +21,8 @@ namespace TheepMod.Items
 			item.value = 10000;
 			item.maxStack = 999;
 			item.rare = 0;
-			item.createTile = mod.TileType("ElectricTrapTile2");
+			item.createTile = mod.TileType("ElectricTrapTile");
+			item.placeStyle = 1;
 			item.useTurn = true;
 			item.autoReuse = true;
 			item.consumable = true;

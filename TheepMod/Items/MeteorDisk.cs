@@ -32,9 +32,8 @@ namespace TheepMod.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.MeteoriteBar);
-			recipe.AddIngredient(mod.ItemType("Disk"), 2);
 			recipe.AddTile(TileID.Anvils);
-			recipe.SetResult(this, 2);
+			recipe.SetResult(this, 20);
 			recipe.AddRecipe();
 		}
 	}

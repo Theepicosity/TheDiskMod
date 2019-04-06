@@ -12,5 +12,6 @@ TODO:
 -Add a glowmask to the mushroom.
 -Make it so you can shift-equip mushroom glowsticks.
 -Add the banner for Jumping Cactus.
+-Change the crit strike chance for Aidan's Airgun to 20.
 
 Note: This mod is very open to contributions. If you want to contribute, you can go to https://github.com/Theepicosity/TheDiskMod. Look on Terraria Forums for more info.

@@ -49,5 +49,9 @@ namespace TheepMod.Items
 			position.Y += player.gravDir == 1 ? Main.mouseY : Main.screenHeight - Main.mouseY;
 			return position;
 		}
+		public override void AutoLightSelect(ref bool dryTorch, ref bool wetTorch, ref bool glowstick)
+		{
+			glowstick = true;
+		}
 	}
 }

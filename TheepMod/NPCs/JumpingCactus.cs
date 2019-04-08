@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
 
 namespace TheepMod.NPCs
 {
@@ -28,9 +29,16 @@ namespace TheepMod.NPCs
 			aiType = NPCID.BlueSlime;
 			animationType = NPCID.BlueSlime;
 			banner = npc.type;
-			bannerItem = mod.ItemType("BridgeTrollBanner");
+			bannerItem = mod.ItemType("JumpingCactusBanner");
 		}
-
+		public override void HitEffect(int hitDirection, double damage)
+		{
+			int num = npc.life > 0 ? 10 : 70;
+			for (int k = 0; k < num; k++)
+			{
+				Dust.NewDust(npc.position, npc.width, npc.height, 4, 0f, 0f, 70, new Color(0,255,67), 1f);
+			}
+		}
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
 			if(NPC.downedBoss1)

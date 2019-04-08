@@ -17,6 +17,14 @@ namespace TheepMod.Shop
  
                     break;
             }
+            switch (type)
+            {
+                case NPCID.Demolitionist:
+                    shop.item[nextSlot].SetDefaults(mod.ItemType("DisposableSpark")); 
+                    nextSlot++;
+ 
+                    break;
+            }
         }
     }
 }

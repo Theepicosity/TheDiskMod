@@ -24,13 +24,22 @@ namespace TheepMod.NPCs
 			npc.DeathSound = SoundID.NPCDeath2;
 			npc.value = 120f;
 			npc.aiStyle = 3;
-			npc.knockBackResist = 0.1;
+			npc.knockBackResist = 0.5f;
 			aiType = 254;
 			animationType = NPCID.Zombie;
 			banner = npc.type;
 			bannerItem = mod.ItemType("BridgeTrollBanner");
 		}
-
+		
+		public override void HitEffect(int hitDirection, double damage)
+		{
+			int num = npc.life > 0 ? 10 : 70;
+			for (int k = 0; k < num; k++)
+			{
+				Dust.NewDust(npc.position, npc.width, npc.height, 5);
+			}
+		}
+		
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
 			if(NPC.downedBoss1)

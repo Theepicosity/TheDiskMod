@@ -28,6 +28,10 @@ namespace TheepMod.Items
 			item.shoot = mod.ProjectileType<Proj.DispSparkProj>();
 			item.shootSpeed = 0f;
 		}
+		public override void AutoLightSelect(ref bool dryTorch, ref bool wetTorch, ref bool glowstick)
+		{
+			wetTorch = true;
+		}
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);

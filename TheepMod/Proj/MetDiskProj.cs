@@ -42,6 +42,7 @@ namespace TheepMod.Proj
 			projectile.penetrate = 5;
 			projectile.maxPenetrate = 5;
 			projectile.aiStyle = 1;
+			projectile.light = 0.2f;
 			projectile.friendly = true;
 			projectile.ranged = true;
         }

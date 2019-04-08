@@ -1,19 +1,18 @@
 The Disk Mod is a kinda miscellaneous mod. It adds some new stuff, but it isn't an entire overhaul of the game.
 
 
-1.0.0.5:
--Added the Magic Vessel, Jumping Cactus Banner, Bridge Troll Banner, Basket, Enchanted Quilt, and Star Disk.
--Added the Bridge Troll.
--Buffed various items.
--Redid the Disk Gun sprites again.
+1.0.0.6:
+-The Bridge Troll no longer takes lots of knockback.
+-The Demolitionist now sell Disposable Sparks.
+-You can now shift-equip Mushroom Glowsticks and Disposable Sparks.
+-Meteor and Star Disks now emit light.
+-The Star Disk, Jumping Cactus, and Bridge Troll now all have dust effects.
 
 TODO:
--Add a glowmask to the mushroom.
--Make it so you can shift-equip mushroom glowsticks.
+-Add a glowmask to the mushroom. (hold, partially done)
 -Add dust effects to the star disk.
--Fix chance of finding an enchanted quilt and another accessory.
--Add Lihzahrd Trap part.
--Change the dust for the hot air balloon.
+-Fix chance of finding an enchanted quilt and another accessory. (hold)
+-Add Lihzahrd Trap part. (hold)
 -Add dust for the two enemies.
 
 Note: This mod is very open to contributions. If you want to contribute, you can go to https://github.com/Theepicosity/TheDiskMod. Look on Terraria Forums for more info.

@@ -15,7 +15,7 @@ namespace TheepMod.Proj
         {
             projectile.CloneDefaults(ProjectileID.StickyGlowstick);
 			projectile.tileCollide = true;
-			projectile.light = 0f;
+			projectile.light = 1.2f;
         }
 		public virtual void CreateDust()
 		{
@@ -27,7 +27,7 @@ namespace TheepMod.Proj
 			{
 				int item =
 				Main.rand.Next(3) == 0
-					? Item.NewItem((int)projectile.position.X, (int)projectile.position.Y, projectile.width, projectile.height, mod.ItemType<Items.DisposableSpark>())
+					? Item.NewItem((int)projectile.position.X, (int)projectile.position.Y, projectile.width, projectile.height, mod.ItemType<Items.MushroomStick>())
 					: 0;
 				if (Main.netMode == 1 && item >= 0)
 				{

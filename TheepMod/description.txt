@@ -10,9 +10,7 @@ The Disk Mod is a kinda miscellaneous mod. It adds some new stuff, but it isn't 
 
 TODO:
 -Add a glowmask to the mushroom. (hold, partially done)
--Add dust effects to the star disk.
 -Fix chance of finding an enchanted quilt and another accessory. (hold)
 -Add Lihzahrd Trap part. (hold)
--Add dust for the two enemies.
 
 Note: This mod is very open to contributions. If you want to contribute, you can go to https://github.com/Theepicosity/TheDiskMod. Look on Terraria Forums for more info.
